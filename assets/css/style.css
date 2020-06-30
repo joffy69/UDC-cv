@@ -37,11 +37,20 @@
     
 }
 
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
+}
 .bg-color-contact{
     background-color: #fff;
 }
 
-
+.bg-color-groups {
+    background-color: #ffffff;
+}
 
 /*--------------------------------------special paddings/margin/text----------------------------*/
 h1,h2,h3,h4 {
@@ -370,6 +379,13 @@ button[type="submit"] {
     margin-bottom: 20px;
     color: #fafafa;
     background-color: #e84610;
+}
+
+
+/*------------------------map---------------------------------*/
+
+div#map {
+    min-height: 360px;
 }
 
 /*------------------------------media queries------------------------------------*/

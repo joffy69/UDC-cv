@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+</head>
+<body>
+    <div><div id="map"></div>
+			</div></div>
+            <script>
+        
+        function initMap() {
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 3,
+          center: {lat: -28.024, lng: 140.887}
+        });
+        }
+	</script>
+    <script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
+	</script>
+	<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_r1OyYWhpcaYt7VhppkV9XQR6GKmlf8c&callback=initMap">
+	</script>
+</body>
+</body>
+</html>
