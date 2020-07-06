@@ -1,12 +1,12 @@
 function fetchGitHubInformation (event){
     var username =$('#gh-username').val();
-    if (username=='octocat'){
-        $('gh-user-data').html(`<h2>Please enter a GitHub username</h2>`);
+    if (!username){
+        $('#gh-user-data').html(`<h2>Please enter a GitHub username</h2>`);
      
         console.log('test');
         console.log(username);
         return;
     }
-    $("gh-user-data").html(`<div id="loader"> <img src="assets/css/loader.gif" alt="loading..."></img></div>`);
+    $("#gh-user-data").html(`<div id="loader"> <img src="assets/css/loader.gif" alt="loading..."></img></div>`);
     console.log('test2');
 }
