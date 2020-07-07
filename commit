@@ -1,2 +1,4 @@
-missing # from front of gh-user-etc
+render user information from github
+
+remember local vars scope
 
